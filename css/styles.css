@@ -1,0 +1,224 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+a {
+  color: #2e2f42;
+  direction: underline;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+p {
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+/* header */
+
+.logo {
+  color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.accent-logo {
+  color: #2e2f42;
+}
+
+.nav {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.nav-link   {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.nav-link:hover{
+    color: #404bbf;
+}
+
+.nav-link:focus {
+  color: #404bbf;
+}
+
+.address {
+  color: #434455;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  font-style: normal;
+}
+
+.address-link {
+  color: #434455;
+}
+
+.address-link:hover {
+  color: #404bbf;
+}
+
+.address-link:focus {
+  color: #404bbf;
+}
+
+/* section 1 */
+
+.section-hero {
+  background-color: #2e2f42;
+}
+
+.hero-header {
+  color: #ffffff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.hero-button {
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-align: left;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.hero-button:hover {
+  background-color: #404bbf;
+}
+
+.hero-button:focus {
+  background-color: #404bbf;
+}
+
+/* section 2 */
+
+.section-items {
+}
+
+.header-section-items {
+  color: #2e2f42;
+}
+
+.items {
+}
+
+.header-items {
+    color: #2e2f42;
+   
+}
+
+.items-text {
+}
+
+/* section 3 */
+
+.section-team {
+  background: #f4f4fd;
+}
+
+.header-team {
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.card-team {
+  background-color: #ffffff;
+}
+
+.card-team-header {
+  color: #2e2f42;
+}
+
+.card-team-text {
+}
+
+/* section 4 */
+
+.portfolio {
+}
+
+.header-portfolio {
+  line-height: 1.11;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.card-portfolio {
+}
+
+.portfolio-image {
+}
+
+.header-portfolio-card {
+  color: #2e2f42;
+}
+
+.portfolio-card-text {
+}
+
+/* footer */
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer-logo {
+  color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.footer-text {
+  color: #f4f4fd;
+}
+
+.footer-accent-logo {
+  color: #f4f4fd;
+  background-color: #2e2f42;
+}
