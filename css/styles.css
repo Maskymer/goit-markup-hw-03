@@ -11,6 +11,10 @@ html{
   box-sizing: inherit;
 } 
 
+h1, h2, h3, h4, h5, h6, p{
+  margin: 0;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #434455;
@@ -47,12 +51,19 @@ p {
 ul,
 ol {
   list-style-type: none;
-  margin: 0;
+  margin: 0 15px;
   padding: 0;
 }
 
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+
+}
+
 .container {
-  width: 1158px;
+  max-width: 1158px;
   padding: 0 16px;
   margin: 0 auto;
 }
@@ -62,6 +73,21 @@ ol {
 
 /* header */
 /* #region */
+
+.header{
+    border-bottom: 1px solid #E7E9FC;
+}
+
+.nav-container{
+display: flex;
+margin: 0 auto;
+
+    }
+
+.header-container{
+  display: flex;
+
+}
 .logo {
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
@@ -71,6 +97,8 @@ ol {
   letter-spacing: 0.03em;
   text-align: left;
   text-transform: uppercase;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .accent-logo {
@@ -83,12 +111,15 @@ ol {
   letter-spacing: 0.02em;
   display: flex;
   gap: 40px;
-}
+  }
 
 .nav-link   {
+  display: flex;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .nav-link:hover{
@@ -105,10 +136,18 @@ ol {
   letter-spacing: 0.02em;
   text-align: left;
   font-style: normal;
+  display: flex;
+    }
+
+  .address-list{
+display: flex;
+gap: 40px;
   }
 
 .address-link {
   color: #434455;
+  padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .address-link:hover {
@@ -137,7 +176,7 @@ ol {
   width: 1158px;
   padding: 0 16px;
     margin: 0 auto;
-}
+    }
 
 .hero-header {
   color: #ffffff;
@@ -161,6 +200,7 @@ ol {
   font-size: 16px;
     padding: 16px 32px 16px 32px;
     border-radius: 4px; 
+    display: block;
 }
 
 .hero-button:hover {
@@ -234,7 +274,7 @@ ol {
     box-shadow: 0px 2px 1px 0px #2E2F4214;
     box-shadow: 0px 1px 1px 0px #2E2F4229;
     box-shadow: 0px 1px 6px 0px #2E2F4214;
-    width: calc((100% - 48px) / 3);
+    width: calc((100% - 48px) / 4);
     
 }
 
@@ -267,6 +307,7 @@ flex-wrap: wrap;
 
 .card-portfolio{
     border: 1px solid #E7E9FC;
+    width: calc((100% - 72px) / 3);
   }
 
 .list-portfolio .card-portfolio {
