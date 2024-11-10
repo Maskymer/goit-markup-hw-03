@@ -73,6 +73,19 @@ img {
   margin: 0 auto;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  overflow: hidden;
+}
+
 /* #endregion */
 
 /* header */
@@ -82,10 +95,12 @@ img {
   border-bottom: 1px solid #e7e9fc;
 }
 
-.header-container .container {
+.header-container {
   display: flex;
   padding-left: 15px;
   padding-right: 15px;
+  width: 1158px;
+  
 }
 
 .logo {
@@ -181,6 +196,14 @@ img {
   margin: 0 auto;
 }
 
+.container-hero{
+  width: 496px;
+  margin: 0 auto;
+  padding-right: 0;
+  padding-left: 0;
+  
+}
+
 .hero-header {
   color: #ffffff;
   font-size: 56px;
@@ -189,6 +212,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   max-width: 496px;
+  margin-bottom: 48px;
 }
 
 .hero-button {
@@ -208,6 +232,7 @@ img {
   min-width: 169px;
   height: 56px;
   border: none;
+  margin: 0 auto;
 }
 
 .hero-button:hover {
@@ -232,18 +257,6 @@ img {
   color: #2e2f42;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  overflow: hidden;
-}
 .items {
   display: flex;
   gap: 24px;
