@@ -80,6 +80,8 @@ img{
 
 .header-container{
   display: flex;
+  padding-left: 15px;
+   padding-right: 15px
 }
 
 .logo {
@@ -93,26 +95,29 @@ img{
   text-transform: uppercase;
   padding-top: 24px;
   padding-bottom: 24px;
+  margin-right: 76px;
 }
 
 .accent-logo {
   color: #2e2f42;
 }
 
-.nav {
+.navigation {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   display: flex;
   gap: 40px;
+  align-items: center;
   }
 
+.nav-list{
+display: flex;
+gap: 40px;
+}
+
 .nav-link   {
-  display: flex;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  padding-top: 24px;
+   padding-top: 24px;
     padding-bottom: 24px;
 }
 
@@ -124,18 +129,18 @@ img{
   color: #404bbf;
 }
 
-.address {
+.nav-address {
   color: #434455;
   line-height: 24px;
   letter-spacing: 0.02em;
   text-align: left;
   font-style: normal;
   display: flex;
+  gap: 40px;
     }
 
   .address-list{
-display: flex;
-gap: 40px;
+
   }
 
 .address-link {
@@ -226,12 +231,15 @@ gap: 40px;
   color: #2e2f42;
 }
 
-.visually-hidden{
-    position: absolute;
-      clip: rect(0 0 0 0);
-      width: 1px;
-      height: 1px;
-      margin: -1px;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
 }
 
 .items {
@@ -331,7 +339,7 @@ row-gap: 48px;
 }
 
 .card-portfolio{
-       width: calc((100% - 48px) / 3);
+  width: calc((100% - 48px) / 3)
   }
 
 .portfolio-image {
@@ -345,6 +353,7 @@ row-gap: 48px;
 }
 
 .header-portfolio-card {
+  margin-bottom: 8px;
   color: #2e2f42;
 }
 
