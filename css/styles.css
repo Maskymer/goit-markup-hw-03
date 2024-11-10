@@ -97,10 +97,7 @@ img {
 
 .header-container {
   display: flex;
-  padding-left: 15px;
-  padding-right: 15px;
   width: 1158px;
-  
 }
 
 .logo {
@@ -133,8 +130,11 @@ img {
 .navigation-list {
   display: flex;
   gap: 40px;
+}
+
+.menu-item{
   padding-top: 24px;
-    padding-bottom: 24px;
+  padding-bottom: 24px;
 }
 
 .menu-link {
@@ -351,7 +351,7 @@ img {
 }
 
 .card-portfolio {
-width: calc((100% - 2 * 24px)/ 3)
+width: calc((100% - 48px) / 3);
 }
 
 .portfolio-image {
