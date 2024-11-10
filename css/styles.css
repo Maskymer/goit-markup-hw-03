@@ -78,16 +78,10 @@ img{
     border-bottom: 1px solid #E7E9FC;
 }
 
-.nav-container{
-display: flex;
-margin: 0 auto;
-
-    }
-
 .header-container{
   display: flex;
-
 }
+
 .logo {
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
