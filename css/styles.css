@@ -68,7 +68,6 @@ img {
 
 .container {
   max-width: 1158px;
-  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -131,8 +130,7 @@ img {
 .navigation-list {
   display: flex;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  
 }
 
 .menu-item{
@@ -140,7 +138,8 @@ img {
 }
 
 .menu-link {
- 
+padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .nav-link:hover {
@@ -157,6 +156,7 @@ img {
   letter-spacing: 0.02em;
   text-align: left;
   font-style: normal;
+  margin-left: auto;
 }
 
 .address-list {
@@ -195,7 +195,7 @@ img {
 
 .container {
   width: 1158px;
-  padding: 0 16px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -352,8 +352,12 @@ img {
   row-gap: 48px;
 }
 
-.card-portfolio {
+.card-portfolio{
 width: calc((100% - 48px) / 3);
+}
+
+.card-portfolio {
+  width: calc((100% - 48px) / 3);
 }
 
 .portfolio-image {
